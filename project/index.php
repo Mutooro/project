@@ -3,6 +3,21 @@
     <head>
         <link type = "text/css" rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+            a:hover{
+                color: #f05462;
+   
+    padding: 3px 8px;
+    
+            }
+            input{
+                width: 100px;
+	border:none;
+	border-radius: 50px;
+	padding:10px 20px;
+	margin-bottom: 15px;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
@@ -13,8 +28,8 @@
             <h1>Hey, welcome to the official page of Mak Sports System</h1>
         </div>
         <div>
-            <button class="btn" name="login" href="login.php">login</button>
-            <button class="btn" name="register" href="register.php">Signup</button>
+            <a href="login.php"><input type="submit" name="submit" value="Login"></a>
+            <a href="register.php"><input type="submit" name="submit" value="Signup"></a>
         </div>
         <div>
     </body>
