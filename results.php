@@ -72,3 +72,5 @@ if(empty($_POST['name'])){
     }
 
 	}
+
+    ?>
